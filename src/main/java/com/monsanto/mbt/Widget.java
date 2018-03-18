@@ -3,7 +3,7 @@ package com.monsanto.mbt;
 import java.util.Date;
 
 
-public class Widget {
+public class Widget implments Comparable<Widget>{
     private int serialNumber;
     private String color;
     private Date productionDate;
@@ -36,5 +36,10 @@ public class Widget {
 
     public void setProductionDate(Date productionDate) {
         this.productionDate = productionDate;
+    }
+    
+    public int compareTo(Widget w)
+    { 
+        return this.getColor.compareTo(w.getColor) ;
     }
 }
