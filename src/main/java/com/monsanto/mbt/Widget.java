@@ -36,12 +36,17 @@ public class Widget implments Comparable<Widget>{
 
     public void setProductionDate(Date productionDate) {
         this.productionDate = productionDate;
-        
+     
     }
     
     public int compareTo(Widget w)
     { 
-        return this.getColor.compareTo(w.getColor)
-    }
-        
+        result = this.getColor.compareTo(w.getColor)
+            
+   
+        if(result== 0)
+        { result = this.getProductionDate.compareTo(w.getProductionDate)
+        }
+            
+            return result ;
 }
