@@ -40,6 +40,9 @@ public class Widget implments Comparable<Widget>{
     
     public int compareTo(Widget w)
     { 
-        return this.getColor.compareTo(w.getColor) ;
+        result =  this.getColor.compareTo(w.getColor) ;
     }
-}
+     if (result = 0)
+     {
+       result = this.getProductionDate.compareTo(w.getProductionDate) ;
+     }
