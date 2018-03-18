@@ -1,4 +1,4 @@
-
+producti
 
 package com.monsanto.mbt;
 
@@ -8,7 +8,7 @@ List<Widget> l1 = new ArrayList<Widget>() ;
   
   for (int i=0 ,i <10 ; i++)
   {
-    Widget w1 = new Widget(int serialnumber, String color,  Date date)
+    Widget w1 = new Widget(int serialnumber, String color,  Date productiondate)
     l1.add(w1);
  }
 
