@@ -1,16 +1,22 @@
-producti
+
 
 package com.monsanto.mbt;
 
 public class Shipment {
 
-List<Widget> l1 = new ArrayList<Widget>() ;
-  
-  for (int i=0 ,i <10 ; i++)
-  {
-    Widget w1 = new Widget(int serialnumber, String color,  Date productiondate)
-    l1.add(w1);
- }
 
-  Collections.sort(l1);
+  public void sorted_by_date()
+  {
+    List <Widgets> l1 = new ArrayList<Widget>();
+    
+    Collections.sort(l1, new Comparator<Widget>() {
+		@Override
+		public int compare(Widget o1, Widget o2) {
+			return o1.getColor() - o2.getColor();
+		}
+      
+    }
+                     }
+
+    
   
