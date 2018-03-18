@@ -8,7 +8,7 @@ List<Widget> l1 = new ArrayList<Widget>() ;
   
   for (int i=0 ,i <10 ; i++)
   {
-    Widget w1 = new Widget(serialnumber,color, date)
+    Widget w1 = new Widget(int serialnumber, String color,  Date date)
     l1.add(w1);
  }
 
