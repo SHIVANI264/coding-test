@@ -10,6 +10,11 @@ public class ShipmentTest {
     @Test
     public void testShipment_Sorted_By_Color(){
         //Implement your solution to get list of shipments
+        
+        List<Widget> list = new ArrayList<Widget>();
+        List l2 = WidgetsUtils.getSampleWidgets();
+        Collections.sort(list ,l2);
+        
 
     }
 
